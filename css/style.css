@@ -1,0 +1,109 @@
+*{
+  margin : 0px;
+  padding: 0px;
+}
+
+#encabezado{
+  background-color: #5272ff;
+  height: 100px;
+  width: 100%;
+}
+
+/* #815BFF */
+
+.imagen{
+  margin-left: 1%;
+  margin-top: -10px;
+  left: 10px;
+  width: 100%;
+  background-color:#5272ff;
+  float: left;
+  justify-content: left;
+
+}
+
+.presentacion{
+  font-size: 30px;
+  margin-right: 85%;
+  color: white;
+  justify-content: left;
+  align-items: left;
+  justify-content: left;
+}
+
+
+
+
+.boton{
+  height: 30px;
+  width: 100px;
+  margin-left: 15%;
+  margin-right: 12.5%;
+  display: inline-block;
+   
+}
+.contacto{
+  display: inline-block;
+}
+
+.helpsy{
+  height: 300%;
+  width: 70%;
+  margin-left: 15%;
+  background-color: whitesmoke;
+}
+
+.historia{
+  height: 100px;
+  width: 70%;
+  margin-left: 15%;
+  background-color: whitesmoke;
+}
+
+
+#footer{
+  background-color: #161b31;
+  color: white;
+}
+
+/* contactanos */
+form{
+  margin-left: 45%;
+}
+
+.contactanos{
+  text-align: center;
+}
+
+nav div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+a{
+  border-radius: 50px;
+  border: 1px solid #161b31;
+  padding: 5px 10px;
+  margin: 30px;
+  text-decoration: none;
+}
+
+
+select{
+  margin-left: -350px;
+}
+
+
+#comentarios{
+display: inline-block;
+margin-left: 100px;
+}
+
+/* ESI */
+
+
+.edu{
+  padding: 0%;
+ background-color: red;
+}
