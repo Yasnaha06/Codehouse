@@ -100,10 +100,69 @@ display: inline-block;
 margin-left: 100px;
 }
 
+
 /* ESI */
 
-
-.edu{
-  padding: 0%;
- background-color: red;
+:root{
+  --width: 300px;
+  --padding: 10px;
+  --background: rbg(52, 52, 52);
+  --hovercolor: rbg(23, 23, 23);
+  --width-collapsed: 50px;
 }
+
+.body-expanded{
+  margin-left: var(--width);
+}
+
+#sidemenu{
+background-color: var(--background);
+color: white;
+position: fixed;
+height: 100%;
+left: 0%;
+top: 0%;
+}
+
+
+/* HEADER */
+
+#sidemenu #header{
+  box-sizing: border-box;
+}
+
+#sidemenu #header #title{
+  box-sizing: border-box;
+  
+}
+
+
+
+.sex{
+  padding: 20px;
+  margin-right: 60%;
+  text-align: justify;
+}
+.imgsex{
+ width: 130%;
+  margin-left: 130%;
+  display: inline;
+}
+.tex{
+  margin-top: -70%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.edu{
+  padding: 20px;
+  margin-left:  60%;
+  text-align: justify;
+  margin-top: -28%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imgedu{
+  padding: 50px;
+  width: 40%;
+   margin-right: 50%;
+   display: inline;
+ }
