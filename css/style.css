@@ -1,3 +1,5 @@
+/* Inicio */
+
 *{
   margin : 0px;
   padding: 0px;
@@ -31,20 +33,11 @@
   justify-content: left;
 }
 
-
-
-
-.boton{
-  height: 30px;
-  width: 100px;
-  margin-left: 15%;
-  margin-right: 12.5%;
-  display: inline-block;
-   
-}
-.contacto{
-  display: inline-block;
-}
+nav div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
 
 .helpsy{
   height: 300%;
@@ -66,7 +59,7 @@
   color: white;
 }
 
-/* contactanos */
+/* contacto */
 form{
   margin-left: 45%;
 }
@@ -75,11 +68,6 @@ form{
   text-align: center;
 }
 
-nav div{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} 
 
 a{
   border-radius: 50px;
@@ -103,66 +91,36 @@ margin-left: 100px;
 
 /* ESI */
 
-:root{
-  --width: 300px;
-  --padding: 10px;
-  --background: rbg(52, 52, 52);
-  --hovercolor: rbg(23, 23, 23);
-  --width-collapsed: 50px;
-}
-
-.body-expanded{
-  margin-left: var(--width);
-}
-
-#sidemenu{
-background-color: var(--background);
-color: white;
-position: fixed;
-height: 100%;
-left: 0%;
-top: 0%;
-}
-
-
-/* HEADER */
-
-#sidemenu #header{
-  box-sizing: border-box;
-}
-
-#sidemenu #header #title{
-  box-sizing: border-box;
-  
-}
-
-
-
 .sex{
   padding: 20px;
-  margin-right: 60%;
   text-align: justify;
+  display: flex;
 }
-.imgsex{
- width: 130%;
-  margin-left: 130%;
-  display: inline;
-}
+
 .tex{
-  margin-top: -70%;
+  width: 50%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.edu{
+
+.carousel-inner{
+ width: 50%;
+  margin-right: 50%;
+  display: flex;
+}
+
+.eduSex{
+  display: flex;
+  flex-direction: row-reverse;
   padding: 20px;
-  margin-left:  60%;
   text-align: justify;
-  margin-top: -28%;
+}
+.edu{
+  width: 50%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .imgedu{
-  padding: 50px;
-  width: 40%;
-   margin-right: 50%;
-   display: inline;
+  display: flex;
+  flex-direction: row;
+  width: 50%;
  }
